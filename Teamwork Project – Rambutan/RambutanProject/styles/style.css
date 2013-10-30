@@ -1,0 +1,23 @@
+﻿body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #4f4f4f;
+}
+
+#wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 980px;
+}
+
+.gamestory {
+    display: none;
+}
+
+#social {
+    margin: 0px auto;
+    width: 980px;
+}

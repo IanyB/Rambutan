@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Rambutan project - Arcade game</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <link href="styles/rambutan.css" rel="stylesheet" />
+    <script src="scripts/jQuery/jquery-1.6.4.min.js"></script>
+</head>
+<body>
+    <h1>Rambutan</h1>
+    <div id="wrapper">
+        <div class="player-life player-life-under"></div>
+        <div id="upperMenu"></div>
+        <div id="points">Points: 0</div>
+        <div id="player-life" class="player-life"></div>
+        <div id="Intro" class="gamestory">
+            <p class="clicktocontinuestory">Year 2XXX in nearby future... Somewhere in the southern US... My name is not important (if you wish you can call me Kaina) but i'm the Last! Last one of the Others and this is my story:</p>
+            <p class="clicktocontinuestory">My first memory is the live wiht my parent it's save and easy noone threath me and I feel so well. When i grow (after my 21 birthday) I fell in love with one local - he was nice  and shine guy, polite to me not like all others - rednecks from nearby village</p>
+            <p class="clicktocontinuestory">After my birthday party I go to the near forest for fungus (did i tell you - I love to cook even more than "those things" with my lover), but when I came back in front of my eyes revealed terrible picture.... my lovers car in flame... and ... and .... and house of my parents ... NONONONO ... burried to the ground...</p>
+            <p class="clicktocontinuestory">Anger and pain felt my head I start to see all in red... What hapen?! Why my house is burned?! Where is my love?! I see rednecks step in the mug. I'll kill them all and they will suffer my bloody revenge and fill my anger!!!</p>
+        </div>
+        <div id="level1" class="gamestory">
+            <p class="clicktocontinuestory">The track leads directly to the redneck village - I couldn't find my lover so I feel that he must be prisoned and tortured there, I must find him at all cost...</p>
+            <p class="clicktocontinuestory">And the rednecks that capture him will suffer!!! And blood will cover the streets and fire will doom tham all...</p>
+            <p class="clicktocontinuestory">QUEST: KILL ALL REDNECK WITHOUT MERCY</p>
+        </div>
+        <div id="level2" class="gamestory">
+            <p class="clicktocontinuestory">Finally i clear the village. The redneck are gone their wifes cries on the streets, their childs are orphans now - like myself.</p>
+            <p class="clicktocontinuestory">In the basement I finally found my lover impaled. I see that someone interrogate him (someone that forgot his headset "Bosse"). My rage blind me again and again I lost my mind...</p>
+            <p class="clicktocontinuestory">When the rage over I see the village in ruins, no children and women left to cry..., but my revenge is not completed. I'll find the responsible for kill of my family and he or she will suffer...</p>
+            <p class="clicktocontinuestory">QUEST: KILL ALL SECURITY FORCE WITHOUT MERCY</p>
+        </div>
+        <div id="Level3" class="gamestory">
+            <p class="clicktocontinuestory">The last survived security force told me that he work for Gambino family and receive order the kill my parent, why he has no idea. His dead was mercifull</p>
+            <p class="clicktocontinuestory">Now I must deal with the mafia... </p>
+            <p class="clicktocontinuestory">QUEST: KILL ALL POLICEMAN NAD FIND GAMBINO'S HOME</p>
+        </div>
+        <div id="level4" class="gamestory">
+            <p class="clicktocontinuestory">Michele Gambino escape with help of the police and the army, but I have my method and manage to track the helicopter to the Pentagon. So the things are "gettin" ugly</p>
+            <p class="clicktocontinuestory">Obviously the things are deeper that I expect, it's not the Gambinos work someone from the gouvernment wants me dead, but they will suffer.... The army is in game against me, but I'm not afraid of dead. I just want my revenge.</p>
+            <p class="clicktocontinuestory">QUEST: FIND WHO IS BEHIND ALL</p>
+        </div>
+        <div id="level5" class="gamestory">
+            <p class="clicktocontinuestory">M. Gambino is dead and his follower are dead too, "how pitty". The corrupted generals are slained, The Pentagon lies in ruin, but I found...</p>
+            <p class="clicktocontinuestory">...document that lead me to the secret place in Alaska - some russian scientists (hired by US Army) want my blood for unknown reason. I'll find them dead or alive. And I really prefer to have some resistance... Rage again sleep my mind I don't remeber... O i start to remember Ok... I'm not sure why these rages became more and more obsessive...</p>
+            <p class="clicktocontinuestory">QUEST: GO TO ALASKA AND FIND INFORMATION ABOUT THE SCIENTISTS</p>
+        </div>
+        <div id="level6" class="gamestory">
+            <p class="clicktocontinuestory">Ivan ("why all those russian are always called Ivan - aren't they has other name?!"), before his painfull dead (may be my flayfull skill helps a lot to his suffering), told me that the order came from organisation named MUFTA based in Siberia. They want my blood because it's rarest in the world... WTF they have in mind about my blood... I even don't know my blood group how they found and know anything about my blood?!</p>
+            <p class="clicktocontinuestory">QUEST: GO TO RUSSIA, TRAVEL TO SIBIRIA AND GATHER INFORMATION</p>
+        </div>
+        <div id="level7" class="gamestory">
+            <p class="clicktocontinuestory">Organisation MUFTA is finally destroyed by my SkudLauncher. Thousands of inocents died and much more flee from my anger. My hunger for blood and revenge is not satisfied yet. Why not? It's simple - the chief of MUFTA told me (on bad english of course - those russians...) that he recieve order from one mad scientist. "He is Kravolok!!! He always drunk blud and vant more and more and must be difyeryent and preshus, ich order is streindj and beceim more stranger"</p>
+            <p class="clicktocontinuestory">he whisper, "Where is he?" I ask. "Surch him in Grin..."  with last bread he whisper. So after shord thought the conclusion came - that the place for sure must be GreenLand. So I must go there. I don't know what will find, but I pretty sure that this bastards will see the Samael I'll find this Vampire at all cost.</p>
+            <p class="clicktocontinuestory">QUEST: FIND THE HEAD AND TAKE IT</p>
+        </div>
+        <div id="level8" class="gamestory">
+            <p class="clicktocontinuestory">The "Vampire" was not the true one - just cloning, but in main PC i found lead to Paskha's Island with strange note - "she is my sister". May be I'll find the truth there?!</p>
+            <p class="clicktocontinuestory">QUEST: KILL THE REAL VAMPIRE</p>
+            <p id="finalBossDialog" class="clicktocontinuestory">
+                - "Finally my sister is came to me. With drink mixed from your blood i'll be invincible, and I'll rule the World - MUHAHAHAHHA". 
+                - "You kill my family and you will die painfully" - I roar - "Who cares who you are - I will impal you @!@#!@$$@!#@#$$@#$$@#$@"
+                -"MUAHAHAHA - lets see sister, let's see...."
+            </p>
+        </div>
+        <div id="Final1" class="gamestory">
+            <p class="clicktocontinuestory">Now my brothers is finally dead.</p>
+            <p class="clicktocontinuestory">In his body I found diary with some strange notes.</p>
+            <p class="clicktocontinuestory">Written by hand, some pages are destroyed by the fire, some by nails, and some been eathen?! My poor brother.... Only few words are saved....</p>
+        </div>
+        <div id="Final2" class="gamestory">
+            <p class="clicktocontinuestory">"... Dear Sister, I still don't know your name, but if you read this I'm probably dead. This is not important - our pride and ambition must be satisfied even if we must fullfill the rivers with blood of innocents. We are different we are the Others. The only important is the power - you must change our world and save our kind you're the last one. Our kind has been killed without mercy from many many centuries. Some are killed by the humans scums other by their relatives. Now you must avange for us all. I try to found you but everything go's wrong, the blood in my veins make me mad from time to time, but i will ruleeee the wooorlddddddd..."</p>
+            <p class="clicktocontinuestory">"...It came again situation goes worst at least two three times per day my anger and rage blind my mind I have no time, rage maddess will kill me one day.... ....at least two times per days - hurry find me and kill me the cure is in my blood you must drink it otherwise in year or two you will became me...."</p>
+            <p class="clicktocontinuestory">"...See my manifest keep in the internet jungle sister and try to keep it in mind...."</p>
+            <p class="clicktocontinuestory">It's label is 100 things that i'll do when i <a href="http://eviloverlordlist.net63.net/">Became Evil Ruler</a></p>
+
+        </div>
+        <div id="Final3" class="gamestory">
+            <p>My world is fell apart.</p>
+            <p class="clicktocontinuestory">I drink my brothers blood. It's tasty mmm....</p>
+            <p class="clicktocontinuestory">Now I understand my rage and anger with blood came knowlege. All knowlege came with my brothers blood...S@#@$ That pain again... The knowlege flow in my mind cause me enourmous pain.....ARGHHGRG....</p>
+            <p class="clicktocontinuestory">I understand! I have no choise, I must clear the world from the human manage</p>
+            <p class="clicktocontinuestory">I will became the evilest ruler in the whole world history. All human scum will be my prey....</p>
+            <p class="clicktocontinuestory">MUAHAHAHAHAHAHAH!!!</p>
+            <p class="clicktocontinuestory">YOU WIN - CONGRATULATION!!!</p>
+            <p class="clicktocontinuestory">
+                Our team is RAMBUTAN: 
+                Boris Frenkev,
+                Iancho Bashev,
+                Kalojan Atanasov,
+                Konstantin Dikov,
+                Nikola Nikolov
+            </p>
+        </div>
+    </div>
+    <div id="social">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-size="large">Tweet</a>
+        <div class="g-plusone" data-annotation="inline" data-width="300"></div>
+    </div>
+    <script type="text/javascript">(function () { var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })();</script>
+    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+    <script src="scripts/ProtoClass.js"></script>
+    <script src="scripts/gameObject.js"></script>
+    <script src="scripts/soldier.js"></script>
+    <script src="scripts/storyteller.js"></script>
+    <script src="scripts/enemy.js"></script>
+    <script src="scripts/gun.js"></script>
+    <script src="scripts/bullet.js"></script>
+    <script src="scripts/player.js"></script>
+    <script src="scripts/level.js"></script>
+    <script src="scripts/Levels/objectGenerator.js"></script>
+    <script src="scripts/Levels/level1.js"></script>
+    <script src="scripts/levelGenerator.js"></script>
+    <script src="scripts/jquery.storageapi.min.js"></script>
+    <script src="scripts/timer.js"></script>
+    <script src="scripts/gameManager.js"></script>
+</body>
+</html>

@@ -1,0 +1,187 @@
+﻿h1 {
+    width: 960px;
+    margin: 0 auto;
+    color: #b6ff00;
+    font-size: 36px;
+    background: #222;
+    border-radius: 0 0 10px 10px;
+    padding: 20px;
+}
+#social {
+    background: #222;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+}
+#gameWrapper {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: #808080;
+    overflow: hidden;
+}
+
+    #gameWrapper div {
+        position: absolute;
+    }
+
+.player {
+    background: url("../images/hero/standing.png") no-repeat;
+    display: inline-block;
+    width: 51px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.grass {
+    background: url("../images/grass.png") repeat-x;
+    width: 10000px;
+    height: 20px;
+    z-index: 100;
+}
+
+.box {
+    background: url("../images/box.png") no-repeat;
+    width: 79px;
+    height: 80px;
+    z-index: 97;
+}
+
+.platform {
+    background: url("../images/platform.png") no-repeat;
+    width: 300px;
+    height: 484px;
+    z-index: 97;
+}
+
+.platformLine {
+    background: #ff6a00;
+    width: 300px;
+    height: 0px;
+    z-index: 97;
+}
+
+.redneck {
+    background: url("../images/enemy/redneck.png") no-repeat;
+    width: 32px;
+    height: 100px;
+    z-index: 98;
+}
+
+.background1 {
+    background: url("../images/backgrounds/wall.jpg") repeat-x;
+    height: 500px;
+    width: 10000px;
+    z-index: 10;
+}
+
+.testBullet {
+    width: 5px;
+    height: 5px;
+    background: #fcf703;
+    z-index: 100;
+}
+
+.greenNeck {
+    background: url("../images/enemy/redneck-sibling.png") no-repeat;
+    width: 60px;
+    height: 84px;
+    z-index: 98;
+}
+
+.greenNeck-hit {
+    background: url("../images/enemy/redneck-sibling-hit.png") no-repeat;
+    width: 56px;
+    height: 79px;
+    z-index: 98;
+}
+
+.greenNeck-dead {
+    background: url("../images/enemy/redneck-sibling-dead.png") 0 55px no-repeat;
+    width: 100px;
+    height: 79px;
+    z-index: 98;
+}
+
+.greenNeckBullet {
+    width: 10px;
+    height: 10px;
+    background: #4cff00;
+    z-index: 100;
+    border-radius: 5px;
+}
+
+.blood {
+    background: url("../images/blood.png") no-repeat;
+    width: 39px;
+    height: 30px;
+    z-index: 101;
+}
+
+.timer {
+    font-size: 30px;
+    color: white;
+    z-index: 101;
+}
+
+#upperMenu {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 980px;
+    height: 60px;
+    background: rgba(25, 25, 25, 0.5);
+    z-index: 198;
+}
+
+.player-life {
+    position: absolute;
+    border-radius: 5px;
+    left: 740px;
+    top: 10px;
+    width: 200px;
+    height: 20px;
+    background: #b6ff00;
+    z-index: 200;
+}
+
+.player-life-under {
+    background: #808080;
+    z-index: 199;
+}
+
+#points {
+    position: absolute;
+    border-radius: 5px;
+    left: 500px;
+    top: 0px;
+    width: 200px;
+    background: #383838;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 200;
+}
+
+.boss1 {
+    background: url("../images/boss1.png") no-repeat;
+    width: 311px;
+    height: 258px;
+    z-index: 100;
+}
+
+.boss1-hit {
+    background: url("../images/boss1-hit.png") no-repeat;
+    width: 311px;
+    height: 258px;
+    z-index: 100;
+}
+
+.boss1-dead {
+    background: url("../images/boss1-dead.png") no-repeat;
+    width: 311px;
+    height: 258px;
+    z-index: 100;
+}
